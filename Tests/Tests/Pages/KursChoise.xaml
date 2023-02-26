@@ -1,0 +1,20 @@
+﻿<Page x:Class="Tests.Pages.KursChoise"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Tests.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="KursChoise">
+
+    <Grid>
+        <Button Content="курс1"  HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,300,200" Width="200" Height="50" Click="Button_Click"></Button>
+        <Button Content="курс2"  HorizontalAlignment="Center" VerticalAlignment="Center" Margin="300,0,0,200" Width="200" Height="50"></Button>
+        <Button Content="курс3"  HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,300,0" Width="200" Height="50"></Button>
+        <Button Content="курс4"  HorizontalAlignment="Center" VerticalAlignment="Center" Margin="300,0,0,0" Width="200" Height="50"></Button>
+        <Button Content="курс5"  HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,200,300,0" Width="200" Height="50"></Button>
+        <Button Content="курс6"  HorizontalAlignment="Center" VerticalAlignment="Center" Margin="300,200,0,0" Width="200" Height="50"></Button>
+        <Button Content="Назад"  HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,400,0,0" Width="200" Height="50" Click="Button_Click_1"></Button>
+    </Grid>
+</Page>
