@@ -1,0 +1,35 @@
+﻿<Page x:Class="TestSystem.Pages.LookKurse"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TestSystem.Pages"
+      xmlns:mpp="clr-namespace:MoonPdfLib;assembly=MoonPdfLib"
+
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="LookKurse">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Border Background="#f0f0f0">
+            <StackPanel HorizontalAlignment="Left" Orientation="Horizontal">
+                <Button Content="Файл" Width="50" Click="FileButton_Click"/>
+                <Button Content="Приблизить" Width="79" Click="ZoomInButton_Click"/>
+                <Button Content="Отдалить" Width="76" Click="ZoomOutButton_Click"/>
+                <Button Content="100%" Width="50" Click="NormalButton_Click"/>
+                <Button Content="Полная страница" Width="117" Click="FitToHeightButton_Click" Height="43"/>
+
+
+            </StackPanel>
+        </Border>
+
+        <Border Background="#d3d3d3" Grid.Row="1">
+            <mpp:MoonPdfPanel x:Name="moonPdfPanel" Background="LightGray" ViewType="SinglePage" PageRowDisplay="ContinuousPageRows" PageMargin="0,2,4,2" AllowDrop="True"/>
+        </Border>
+    </Grid>
+</Page>
