@@ -87,7 +87,7 @@
 
         </ScrollViewer>
 
-        <UniformGrid Columns="3"
+        <UniformGrid Columns="4"
                      Grid.Row="4">
             <Button Content="Правильные ответы"
                     Padding="5"
@@ -101,6 +101,10 @@
                     Padding="5"
                     Margin="10,5"
                     Command="{Binding ToStartPage}"/>
+            <Button Content="Сохранить результат"
+                    Padding="5"
+                    Margin="10,5"
+                    Command="{Binding SaveResultToFile}"/>
         </UniformGrid>
     </Grid>
 </Page>

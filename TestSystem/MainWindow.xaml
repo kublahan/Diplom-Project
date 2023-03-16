@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:TestSystem"
         DataContext="{Binding Source={StaticResource VmLocator}, Path=mainViewModel}"
         mc:Ignorable="d"
+        Icon="D:\Programming\Projects\Диплом\Diplom-Project\TestSystem\Resources\icon.ico"
         Title="MainWindow" Height="550" Width="900" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.ColumnDefinitions>

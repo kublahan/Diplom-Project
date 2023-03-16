@@ -8,11 +8,13 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using TestSystem.Models;
 using TestSystem.Services;
+using TestSystem.Services.Interfaces;
 
 namespace TestSystem.VeiwModels
 {
     public class StatisticsPageViewModel : BindableBase
     {
+
         private readonly TestState _testState;
         private readonly PageNavigationService _navigationService;
 
@@ -49,5 +51,7 @@ namespace TestSystem.VeiwModels
         {
             _navigationService.ToStartPage();
         });
+
+       
     }
 }

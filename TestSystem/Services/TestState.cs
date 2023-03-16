@@ -11,6 +11,7 @@ namespace TestSystem.Services
 {
     public class TestState
     {
+
         private Test currentTest;
         public Test CurrentTest
         {
@@ -60,7 +61,7 @@ namespace TestSystem.Services
             SelectQuestions(qNum);
         }
 
-        private void SelectQuestionInterval(int start, int end)
+            private void SelectQuestionInterval(int start, int end)
         {
             CurrentTest.Questions = new ObservableCollection<Question>(CurrentTest.Questions.Skip(start - 1).Take(end - start + 1));
         }
@@ -77,5 +78,7 @@ namespace TestSystem.Services
                 question.Answers.Shuffle();
             }
         }
+
+
     }
 }
