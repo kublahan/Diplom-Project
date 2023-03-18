@@ -24,6 +24,10 @@
                     Padding="50, 20, 50, 20"
                     Margin="5"
                     Command="{Binding LoadTestCommand}"/>
+            <Button Content="Создать тест"
+                    Padding="50, 20, 50, 20"
+                    Margin="5"
+                    Command="{Binding CreateTestCommand}"/>
             <Button Content="Выйти"
                     Padding="50, 20, 50, 20"
                     Margin="5"

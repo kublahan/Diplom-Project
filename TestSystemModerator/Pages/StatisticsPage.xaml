@@ -44,14 +44,7 @@
         <TextBlock Text="{Binding ElementName=pbStatus, Path=Value, StringFormat={}{0:0}%}"
                    HorizontalAlignment="Center"
                    VerticalAlignment="Center"
-                   Grid.Row="2"
-                   Name="MessageRead"/>
-        <TextBlock Text="{Binding Result}"
-                   HorizontalAlignment="Center"
-                   VerticalAlignment="Center"
-                   Grid.Row="2"
-                   Name="TextBlockResult"
-                   Visibility="Hidden"/>
+                   Grid.Row="2"/>
 
         <ScrollViewer Grid.Row="3">
             <ItemsControl ItemsSource="{Binding Questions}" >
@@ -110,8 +103,8 @@
                     Command="{Binding ToStartPage}"/>
             <Button Content="Сохранить результат"
                     Padding="5"
-                    Margin="10,5" 
-                    Command="{Binding Path=SaveFileCommand}" Name="I2CSaveBtn" Click="I2CSaveBtn_Click"/>
+                    Margin="10,5"
+                    Command="{Binding SaveResultToFile}"/>
         </UniformGrid>
     </Grid>
 </Page>

@@ -60,6 +60,14 @@
                                         Command="{Binding RelativeSource={RelativeSource AncestorType=Page}, Path=DataContext.OpenTestCommand}"
                                         CommandParameter="{Binding Id}"/>
 
+                                <Button Content="🖉"
+                                FontSize="18"
+                                Grid.Column="1"
+                                Margin="5"
+                                Padding="3,0"
+                                Command="{Binding RelativeSource={RelativeSource AncestorType=Page}, Path=DataContext.EditTestCommand}"
+                                CommandParameter="{Binding Id}"/>
+
                                 <Button Content="🗑"
                                         FontSize="18"
                                         Grid.Column="2"

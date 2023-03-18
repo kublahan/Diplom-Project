@@ -1,5 +1,4 @@
 ﻿using DevExpress.Mvvm;
-using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -52,38 +51,7 @@ namespace TestSystem.VeiwModels
         {
             _navigationService.ToStartPage();
         });
-        //public ICommand SaveResultToFileCommand => new DelegateCommand(() =>
-        //{
-        //    _testState.SaveResultToFile(Results);
-        //});
-        //private string _readMessage = string.Empty;
-        //public string ReadMessage
-        //{
-        //    get
-        //    {
-        //        return _readMessage;
-        //    }
-        //    set
-        //    {
-        //        _readMessage = value;
 
-        //    }
-        //}
-
-
-        //private void ExecuteSaveFileDialog()
-        //{
-        //    string fileText = ReadMessage;
-
-        //    SaveFileDialog dialog = new SaveFileDialog()
-        //    {
-        //        Filter = "Text Files(*.txt)|*.txt|All(*.*)|*"
-        //    };
-
-        //    if (dialog.ShowDialog() == true)
-        //    {
-        //        File.WriteAllText(dialog.FileName, fileText);
-        //    }
-        //}
+       
     }
 }
