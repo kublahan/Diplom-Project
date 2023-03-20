@@ -8,10 +8,12 @@
         mc:Ignorable="d"
         Icon="D:\Programming\Projects\Diplom2\Diplom-Project\TestSystem\Resources\icon.ico"
         Title="MainWindow" Height="550" Width="900" WindowStartupLocation="CenterScreen">
+
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="113*"/>
-            <ColumnDefinition Width="787*"/>
+            <ColumnDefinition Width="25*"/>
+            <ColumnDefinition Width="762*"/>
         </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
@@ -19,7 +21,7 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <UniformGrid Columns="10" Grid.ColumnSpan="2">
+        <UniformGrid Columns="10" Grid.ColumnSpan="3">
             <Button Content="🢦"
                     FontSize="22"
                     Background="Transparent"
@@ -27,6 +29,6 @@
         </UniformGrid>
 
         <Frame Content="{Binding CurrentPage}"
-               NavigationUIVisibility="Hidden" Grid.ColumnSpan="2" Margin="0,33,0,0" Grid.RowSpan="2"/>
+               NavigationUIVisibility="Hidden" Grid.ColumnSpan="3" Margin="0,33,0,0" Grid.RowSpan="2"/>
     </Grid>
 </Window>

@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestSystem", "TestSystem\Te
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestSystemModerator", "TestSystemModerator\TestSystemModerator.csproj", "{F9785C76-29E4-4ABD-AE40-9CB6D1D08229}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup_TestSystem", "Setup_TestSystem\Setup_TestSystem.vdproj", "{F3C71D86-6ABD-4501-B708-412203AC193E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{F9785C76-29E4-4ABD-AE40-9CB6D1D08229}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F9785C76-29E4-4ABD-AE40-9CB6D1D08229}.Release|x86.ActiveCfg = Release|x86
 		{F9785C76-29E4-4ABD-AE40-9CB6D1D08229}.Release|x86.Build.0 = Release|x86
+		{F3C71D86-6ABD-4501-B708-412203AC193E}.Debug|Any CPU.ActiveCfg = Debug
+		{F3C71D86-6ABD-4501-B708-412203AC193E}.Debug|x86.ActiveCfg = Debug
+		{F3C71D86-6ABD-4501-B708-412203AC193E}.Release|Any CPU.ActiveCfg = Release
+		{F3C71D86-6ABD-4501-B708-412203AC193E}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
