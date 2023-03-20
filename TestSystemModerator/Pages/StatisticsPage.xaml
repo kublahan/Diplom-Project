@@ -45,6 +45,12 @@
                    HorizontalAlignment="Center"
                    VerticalAlignment="Center"
                    Grid.Row="2"/>
+        <TextBlock Text="{Binding Result}"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"
+                   Grid.Row="2"
+                   Name="TextBlockResult"
+                   Visibility="Hidden"/>
 
         <ScrollViewer Grid.Row="3">
             <ItemsControl ItemsSource="{Binding Questions}" >
@@ -104,7 +110,7 @@
             <Button Content="Сохранить результат"
                     Padding="5"
                     Margin="10,5"
-                    Command="{Binding SaveResultToFile}"/>
+                    Command="{Binding SaveResultToFile}" Click="Button_Click"/>
         </UniformGrid>
     </Grid>
 </Page>
