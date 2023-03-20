@@ -17,10 +17,10 @@
 
   <ItemGroup>
     <Reference Include="MoonPdfLib">
-      <HintPath>bin\x86\Debug\net6.0-windows\MoonPdfLib.dll</HintPath>
+      <HintPath>..\TestSystem\bin\x86\Debug\net6.0-windows\MoonPdfLib.dll</HintPath>
     </Reference>
     <Reference Include="MouseKeyboardActivityMonitor">
-      <HintPath>bin\x86\Debug\net6.0-windows\MouseKeyboardActivityMonitor.dll</HintPath>
+      <HintPath>..\TestSystem\bin\x86\Debug\net6.0-windows\MouseKeyboardActivityMonitor.dll</HintPath>
     </Reference>
   </ItemGroup>
 
