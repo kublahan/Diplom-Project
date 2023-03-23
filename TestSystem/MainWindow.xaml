@@ -22,7 +22,7 @@
         </Grid.RowDefinitions>
 
         <UniformGrid Columns="10" Grid.ColumnSpan="3">
-            <Button Content="🢦"
+            <Button Content="Назад"
                     FontSize="22"
                     Background="Transparent"
                     Command="{Binding GoBack}"/>

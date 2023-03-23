@@ -52,7 +52,7 @@
                                     <ColumnDefinition Width="auto"/>
                                 </Grid.ColumnDefinitions>
 
-                                <Button Content="▷"
+                                <Button Content="Начать"
                                         FontSize="18"
                                         Grid.Column="0"
                                         Margin="5"
@@ -60,7 +60,7 @@
                                         Command="{Binding RelativeSource={RelativeSource AncestorType=Page}, Path=DataContext.OpenTestCommand}"
                                         CommandParameter="{Binding Id}"/>
 
-                                <Button Content="🖉"
+                                <Button Content="Изменить"
                                 FontSize="18"
                                 Grid.Column="1"
                                 Margin="5"
@@ -68,7 +68,7 @@
                                 Command="{Binding RelativeSource={RelativeSource AncestorType=Page}, Path=DataContext.EditTestCommand}"
                                 CommandParameter="{Binding Id}"/>
 
-                                <Button Content="🗑"
+                                <Button Content="Удалить"
                                         FontSize="18"
                                         Grid.Column="2"
                                         Margin="5"

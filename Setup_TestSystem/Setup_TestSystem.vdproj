@@ -15,19 +15,13 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_A222D237E6714E5799EF91A3C6A5B4D0"
+        "MsmKey" = "8:_2754272985244BF1B417BBD7D7D58888"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_E44D06CCC9FF4551AD2563A8C2980DDF"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_E7A2412985C747E69529265814CEB573"
+        "MsmKey" = "8:_9555C857C8414C1CAF2F8C6620740671"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -49,6 +43,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -117,26 +119,6 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E44D06CCC9FF4551AD2563A8C2980DDF"
-            {
-            "SourcePath" = "8:..\\TestSystem\\Resources\\icon.ico"
-            "TargetName" = "8:icon.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_4F4B9EA00DEC43CAACBEBA891619FD72"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
         }
         "FileType"
         {
@@ -205,7 +187,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Setup_TestSystem"
         "ProductCode" = "8:{36EE35B3-2F2F-49F6-B498-54CBF97FB6B1}"
-        "PackageCode" = "8:{E476067F-1DB7-45EB-9440-3E7A1DC50216}"
+        "PackageCode" = "8:{316A3A98-1656-462D-B1A1-B4CA605678DC}"
         "UpgradeCode" = "8:{56C43F8F-6C62-4961-8D7E-1D25A96A1E2C}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -325,35 +307,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_01C8254F4F054D54A6F2362B50E8FD85"
-            {
-            "Name" = "8:TestSystemModerator"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_E7A2412985C747E69529265814CEB573"
-            "Folder" = "8:_5A145D0E00C0422AABFA96EB8CAEE408"
-            "WorkingFolder" = "8:_4F4B9EA00DEC43CAACBEBA891619FD72"
-            "Icon" = "8:_E44D06CCC9FF4551AD2563A8C2980DDF"
-            "Feature" = "8:"
-            }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_84380D7000744BB4B478804DDF12643B"
-            {
-            "Name" = "8:TestSystemModerator"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_E7A2412985C747E69529265814CEB573"
-            "Folder" = "8:_B0C1665EEC3446A995698E3BE4EAE0BB"
-            "WorkingFolder" = "8:_4F4B9EA00DEC43CAACBEBA891619FD72"
-            "Icon" = "8:_E44D06CCC9FF4551AD2563A8C2980DDF"
-            "Feature" = "8:"
-            }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_AC71567DFF6F46D180A2E5E33A4E4DD4"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_4500768179AE475D921513477D53A047"
             {
             "Name" = "8:TestSystem"
             "Arguments" = "8:"
@@ -361,13 +315,13 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_A222D237E6714E5799EF91A3C6A5B4D0"
+            "Target" = "8:_2754272985244BF1B417BBD7D7D58888"
             "Folder" = "8:_5A145D0E00C0422AABFA96EB8CAEE408"
             "WorkingFolder" = "8:_497042B4EA9B429291612DFA7CD434AE"
-            "Icon" = "8:_E44D06CCC9FF4551AD2563A8C2980DDF"
+            "Icon" = "8:"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_CFF988B5E464463CB661C7B5BBEB81E9"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_AE595B0644B94E92977510ECBCC4959E"
             {
             "Name" = "8:TestSystem"
             "Arguments" = "8:"
@@ -375,10 +329,38 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_A222D237E6714E5799EF91A3C6A5B4D0"
+            "Target" = "8:_2754272985244BF1B417BBD7D7D58888"
             "Folder" = "8:_B0C1665EEC3446A995698E3BE4EAE0BB"
             "WorkingFolder" = "8:_497042B4EA9B429291612DFA7CD434AE"
-            "Icon" = "8:_E44D06CCC9FF4551AD2563A8C2980DDF"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_CF985103047646A39A99451290F8B5B0"
+            {
+            "Name" = "8:TestSystemModerator"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_9555C857C8414C1CAF2F8C6620740671"
+            "Folder" = "8:_5A145D0E00C0422AABFA96EB8CAEE408"
+            "WorkingFolder" = "8:_4F4B9EA00DEC43CAACBEBA891619FD72"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_F4C9F5895EAF441ABFCC3F01958C6DD2"
+            {
+            "Name" = "8:TestSystemModerator"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_9555C857C8414C1CAF2F8C6620740671"
+            "Folder" = "8:_B0C1665EEC3446A995698E3BE4EAE0BB"
+            "WorkingFolder" = "8:_4F4B9EA00DEC43CAACBEBA891619FD72"
+            "Icon" = "8:"
             "Feature" = "8:"
             }
         }
@@ -780,9 +762,9 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_A222D237E6714E5799EF91A3C6A5B4D0"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_2754272985244BF1B417BBD7D7D58888"
             {
-            "SourcePath" = "8:..\\TestSystem\\obj\\x86\\Release\\net6.0-windows\\apphost.exe"
+            "SourcePath" = "8:..\\TestSystemModerator\\obj\\x86\\Release\\net6.0-windows\\apphost.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_497042B4EA9B429291612DFA7CD434AE"
@@ -802,13 +784,13 @@
             "ProjectOutputGroupRegister" = "3:1"
             "OutputConfiguration" = "8:"
             "OutputGroupCanonicalName" = "8:PublishItems"
-            "OutputProjectGuid" = "8:{F53F170A-3F0E-42FB-9894-D085C2BA443A}"
+            "OutputProjectGuid" = "8:{F9785C76-29E4-4ABD-AE40-9CB6D1D08229}"
             "ShowKeyOutput" = "11:TRUE"
                 "ExcludeFilters"
                 {
                 }
             }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_E7A2412985C747E69529265814CEB573"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_9555C857C8414C1CAF2F8C6620740671"
             {
             "SourcePath" = "8:..\\TestSystemModerator\\obj\\x86\\Release\\net6.0-windows\\apphost.exe"
             "TargetName" = "8:"
