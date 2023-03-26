@@ -83,5 +83,10 @@ namespace TestSystem.Pages
         {
             moonPdfPanel.ViewType = MoonPdfLib.ViewType.SinglePage;
         }
+
+        private void moonPdfPanel_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

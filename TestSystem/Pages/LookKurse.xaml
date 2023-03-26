@@ -27,7 +27,7 @@
         </Border>
 
         <Border Background="#d3d3d3" Grid.Row="1">
-            <mpp:MoonPdfPanel x:Name="moonPdfPanel" Background="LightGray" ViewType="SinglePage" PageRowDisplay="ContinuousPageRows" PageMargin="0,2,4,2" AllowDrop="True"/>
+            <mpp:MoonPdfPanel x:Name="moonPdfPanel" Background="LightGray" ViewType="SinglePage" PageRowDisplay="ContinuousPageRows" PageMargin="0,2,4,2" AllowDrop="True" Loaded="moonPdfPanel_Loaded"/>
         </Border>
     </Grid>
 </Page>
